@@ -1,0 +1,10 @@
+static void Main(string[] args)
+        {
+            rename("Doruk", "Kaşoğlu");
+            Console.ReadKey();
+
+        }
+        static void rename(string name, string surname)
+        {
+            Console.WriteLine(surname.ToUpper() + " " + name);
+        }
