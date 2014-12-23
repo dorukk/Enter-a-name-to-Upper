@@ -1,0 +1,12 @@
+static void Main(string[] args)
+        {
+            writename("Doruk Kaşoğlu");
+            writename("Blackie Lawless");
+            writename("Lemmy Kilmester");
+            Console.ReadKey();
+
+        }
+
+        static void writename(string name)
+        {
+            Console.Write(name);
