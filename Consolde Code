@@ -1,0 +1,10 @@
+Console.Write("Enter a name :");
+            string data = Console.ReadLine();
+            writename(data);
+            Console.ReadKey();
+        }
+
+        static void writename(string name)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(name.ToUpper());
